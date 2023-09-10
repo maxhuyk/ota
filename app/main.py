@@ -20,7 +20,7 @@ while True:
     led.value(1)
     sleep(1)
     led.value(0) 
-    sleep(1)
+    sleep(2)
     if OTA.fetch():
         print("A newer version is available!")
         machine.reset()
